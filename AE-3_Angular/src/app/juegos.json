@@ -1,0 +1,62 @@
+[
+    {
+      "Title": "The Legend of Zelda: Breath of the Wild",
+      "Id": "1",
+      "Company": "Nintendo",
+      "Valoration": "10"
+    },
+    {
+      "Title": "Red Dead Redemption 2",
+      "Id": "2",
+      "Company": "Rockstar Games",
+      "Valoration": "9.5"
+    },
+    {
+      "Title": "The Witcher 3: Wild Hunt",
+      "Id": "3",
+      "Company": "CD Projekt",
+      "Valoration": "9.8"
+    },
+    {
+      "Title": "Grand Theft Auto V",
+      "Id": "4",
+      "Company": "Rockstar Games",
+      "Valoration": "9.6"
+    },
+    {
+      "Title": "God of War",
+      "Id": "5",
+      "Company": "Santa Monica Studio",
+      "Valoration": "9.7"
+    },
+    {
+      "Title": "Super Mario Odyssey",
+      "Id": "6",
+      "Company": "Nintendo",
+      "Valoration": "9.5"
+    },
+    {
+      "Title": "Minecraft",
+      "Id": "7",
+      "Company": "Mojang",
+      "Valoration": "9.4"
+    },
+    {
+      "Title": "Overwatch",
+      "Id": "8",
+      "Company": "Blizzard Entertainment",
+      "Valoration": "9.3"
+    },
+    {
+      "Title": "Fortnite",
+      "Id": "9",
+      "Company": "Epic Games",
+      "Valoration": "9.2"
+    },
+    {
+      "Title": "Call of Duty: Modern Warfare",
+      "Id": "10",
+      "Company": "Infinity Ward",
+      "Valoration": "9.1"
+    }
+  ]
