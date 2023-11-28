@@ -1,16 +1,19 @@
+
 export class Juego{
     private _id : number;
     private _titulo : string;
     private _company : string;
     private _valoracion : number;
+    private _img : string;
 
-    private static contadorId : number = 1;
+    static contadorId : number = 1;
 
-    constructor(titulo : string, company : string, valoracion : number){
+    constructor(titulo : string, company : string, valoracion : number, img : string){
         this._id = Juego.contadorId++;
         this._titulo = titulo;
         this._company = company;
         this._valoracion = valoracion;
+        this._img = img;
     }
 
     public get id() : number{
@@ -29,4 +32,7 @@ export class Juego{
         return this._valoracion;
     }
 
+    public get img() : string{
+        return this._img;
+    }
 }

@@ -1,1 +1,22 @@
-<p>detalle works!</p>
+<h3>Detalles del juego seleccionado</h3>
+<table>    
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Compañía</th>
+            <th>Valoración</th>
+            <th>Portada</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr >
+            <td>{{ id }}</td>
+            <td>{{ titulo }}</td>
+            <td>{{ company }}</td>
+            <td>{{ valoracion }}</td>
+            <td><img src="{{ img }}"> </td>
+        </tr>
+    </tbody>
+</table> 
+<button (click)="irHome(user)">Volver home</button>

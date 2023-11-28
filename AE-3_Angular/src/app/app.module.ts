@@ -12,6 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { NavegacionComponent } from './navegacion/navegacion.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { FooterComponent } from './footer/footer.component';
+import { Juego } from './entidades/Juego';
 
 @NgModule({
   declarations: [

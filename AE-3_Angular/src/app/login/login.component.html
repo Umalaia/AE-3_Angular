@@ -1,0 +1,12 @@
+<h1>Te damos la bienvenida a GameStorage</h1>
+<p>Por favor, introduce tu usuario y contraseña</p>
+<div>
+    <label for="user">Introduce tu usuario</label>
+    <input type="text" [(ngModel)]="user" placeholder="Usuario...">
+    <br/>
+    <label for="pass">Introduce tu usuario</label>
+    <input type="password" [(ngModel)]="pass" placeholder="Contraseña...">
+    <br/>
+    <input type="submit" (click)="validarForm()">
+</div>
+<p *ngIf="mensajeErrorOculto">Usuario o contraseña incorrectos, por favor vuelve a intentarlo.</p>
