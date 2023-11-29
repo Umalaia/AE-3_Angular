@@ -43,6 +43,10 @@ export class ListadoComponent implements OnInit {
     this.router.navigate([ '/detalle', id]);
   }
 
+  public cerrarSesion(){
+    localStorage.removeItem("user");
+    this.router.navigate([ '' ]);
+  }
   ngOnInit(): void {
   }
 

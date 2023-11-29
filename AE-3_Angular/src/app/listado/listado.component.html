@@ -8,7 +8,8 @@
     </head>
     <body>
         <app-navegacion></app-navegacion>
-        <h1>Bienvenido {{user}} </h1> <button>Cerrar sesión</button>
+        <h1>Bienvenido {{user}} </h1> 
+        <button (click)="cerrarSesion()">Cerrar sesión</button>
         <h3>Listado de videojuegos activos:</h3>
         <table>
             <thead>
