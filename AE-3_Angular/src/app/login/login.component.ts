@@ -38,6 +38,7 @@ export class LoginComponent implements OnInit {
 
     if(usuarioEncontrado) {
       this.mensajeErrorOculto = false;
+      localStorage.setItem("user", this.user);
       this.router.navigate([ '/home', this.user]);
     } else {
       this.mensajeErrorOculto = true;
@@ -45,6 +46,7 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    localStorage.removeItem("user")
   }
 
 }

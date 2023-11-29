@@ -9,10 +9,11 @@
 <body>
   <nav>
     <div>
-      <button><a routerLink="">Inicio</a></button>
+      <button *ngIf="(user != null) && (user != ''), else altNav"><a [routerLink]="['/home', user]">Inicio</a></button>
+      <ng-template #altNav><button><a routerLink="">Inicio</a></button></ng-template>
       <button><a routerLink="/sobre-nosotros">Sobre Nosotros</a></button>
       <button><a routerLink="/contacto">Contacto</a></button>
     </div>
-</nav>
+  </nav>
 </body>
 </html>
